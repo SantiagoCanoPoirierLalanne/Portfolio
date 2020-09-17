@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Cano Poirier Lalanne Portfolio Website</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="spanish.html" class="btn-translate">
+            ESPAÑOL
+        </a>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Santiago Cano</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full Stack Dev</p>
+        <img src="img/fotoCV.jpeg" alt="a picture of Santiago smiling" class="intro__img">
+    </section>
+    
+    
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>UI Development</h3>
+                <p>I can create User Interfaces using HTML5, CSS3 and JavaScript or even create a Single Page Application (SPA)with React js or Angular.</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Responsive Design</h3>
+                <p>It is very important in order to create a great user experience (UX) that our User Interface has a responsive design so our users can access our website with whichever device they want and still be able to read and navigate properly.</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Backend with Firebase</h3>
+                <p>Making profit of this incredible tool that Google provide us we can create a full-stack app that has a Realtime database, handle user authentication, send notifications and even use a hosting to publish our app.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+        
+        <a href="#work" class="btn">My Work</a>
+    </section>
+    
+    
+    <!-- About me -->
+    <section class="about-me" id="about">
+       <h2 class="section__title section__title--about">Who I am</h2>
+       <p class="section__subtitle section__subtitle--about">Developer based in Barcelona</p>
+       
+       <div class="about-me__body">
+        <p>I am Santiago, a young man passionate about traveling and discovering new realities, always with my honesty and my joy as a flag. I am curious and love challenges. Identified by my teamwork, interpersonal communication and leadership skills.  </p>
+        <p>I have decided to reorient my career to the technology sector because of my interest in growing as a Web Developer.</p>
+       </div>
+       
+       <img src="img/fotoViajera.JPG" alt="Santiago coding" class="about-me__img">
+       <a href="cvEnglish.html" class="btn-CV">Get my CV</a>
+    </section>
+    
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>    
+        
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a 
+                href="https://vivero-2afb7.web.app/" 
+                class="portfolio__item"
+                target="_blank"
+            >
+                <img src="img/vivero.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 02 -->
+            <a 
+                href="https://herbolario-82b66.firebaseapp.com/" 
+                class="portfolio__item"
+                target="_blank"
+            >
+                <img src="img/herbolario.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 03 -->
+            <a 
+                href="https://red-social-utn-e102b.web.app/" 
+                class="portfolio__item"
+                target="_blank"
+            >
+                <img src="img/redSocial.png" alt="" class="portfolio__img">
+            </a>
+            
+        </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:cano.santiago@hotmail.com" class="footer__link">cano.santiago@hotmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/santiagocanopl/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/SantiagoCanoPoirierLalanne" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+    <script src="js/index.js"></script>
+
+</body>
+</html>

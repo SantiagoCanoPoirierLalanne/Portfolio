@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Cano Poirier Lalanne Portfolio Website</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="btn-translate">
+            INGLES
+        </a>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Mis Servicios</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Sobre Mi</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Mi Trabajo</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hola, Soy <strong>Santiago Cano</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Desarrollador Full Stack</p>
+        <img src="img/fotoCV.jpeg" alt="a picture of Santiago smiling" class="intro__img">
+    </section>
+    
+    
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Lo Que Hago</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Desarrollo de Interfaces de Usuario</h3>
+                <p>Puedo crear Interfaces de Usuario (UI) ya sea utilizando HTML5, CSS3 y JavaScript como así también una SPA (Single Page Application) con React js o Angular.</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Diseño Responsive</h3>
+                <p>Es muy importante para la experiencia de Usuario (UX) que la Interfaz tenga un diseño responsive así el usuario podrá leer con comodidad independiente del dispositivo que utilice para ingresar a la web.</p>
+            </div> <!-- / service -->
+            
+            <div class="service">
+                <h3>Backend con Firebase</h3>
+                <p>Aprovechando esta increíble herramienta de Google podemos desarrollar una app Full stack usando sus bases de datos en tiempo real de tipo no relacionales, autenticar usuarios, enviar notificaciones y hasta utilizar un hosting para publicar nuestro proyecto online.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+        
+        <a href="#work" class="btn">Mi Trabajo</a>
+    </section>
+    
+    
+    <!-- About me -->
+    <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Quien Soy</h2>
+    <p class="section__subtitle section__subtitle--about">Desarrollador radicado en Barcelona</p>
+    
+    <div class="about-me__body">
+        <p>Soy Santiago, un joven apasionado por viajar y descubrir nuevas realidades, siempre con mi sinceridad y mi alegría como bandera. Soy curioso y amo los desafíos. Me caracterizo por mis dotes de trabajo en equipo, comunicación interpersonal y liderazgo.</p>
+        <p>He decidido reorientar mi perfil al sector tecnológico puesto que me interesa mucho crecer como Desarrollador Web.</p>
+    </div>
+    
+    <img src="img/fotoViajera.JPG" alt="Santiago coding" class="about-me__img">
+    <a href="cvSpanish.html" class="btn-CV">Obtener mi CV</a>
+    </section>
+    
+    
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Mi Trabajo</h2>
+        <p class="section__subtitle section__subtitle--work">Algunos de mis proyectos</p>    
+        
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a 
+                href="https://vivero-2afb7.web.app/" 
+                class="portfolio__item"
+                target="_blank"
+            >
+                <img src="img/vivero.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 02 -->
+            <a 
+                href="https://herbolario-82b66.firebaseapp.com/" 
+                class="portfolio__item"
+                target="_blank"
+            >
+                <img src="img/herbolario.png" alt="" class="portfolio__img">
+            </a>
+            
+            <!-- Portfolio item 03 -->
+            <a 
+                href="https://red-social-utn-e102b.web.app/" 
+                class="portfolio__item"
+                target="_blank"
+            >
+                <img src="img/redSocial.png" alt="" class="portfolio__img">
+            </a>
+            
+        </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:cano.santiago@hotmail.com" class="footer__link">cano.santiago@hotmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/santiagocanopl/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/SantiagoCanoPoirierLalanne" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+    <script src="js/index.js"></script>
+
+</body>
+</html>
