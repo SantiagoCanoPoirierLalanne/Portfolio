@@ -411,6 +411,7 @@ header {
 .portfolio__item {
     /* background: var(--clr-accent); */
     overflow: hidden;
+    margin-bottom: 1em;
 }
 
 .portfolio__img {
